@@ -76,7 +76,7 @@ export default function Taxis3D() {
   const [zoom, setZoom] = useState(INITIAL_VIEW.zoom)
   const fps = useFPS()
   const [interleaved] = useState(() => {
-    if (typeof window === 'undefined') return false
+    if (typeof window === 'undefined') return true
     const stored = localStorage.getItem('deck-interleaved')
     return stored === 'true'
   })
