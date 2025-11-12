@@ -17,6 +17,7 @@
     "@loaders.gl/core": "4.3.4",
     "@loaders.gl/gltf": "4.3.4",
     "deck.gl": "9.2.1",
+    "lucide-react": "^0.546.0",
     "mapbox-gl": "^3.6.0",
     "next": "15.5.5",
     "react": "19.2.0",
