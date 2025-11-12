@@ -78,6 +78,7 @@ export default function Taxis3D() {
   const [interleaved] = useState(() => {
     if (typeof window === 'undefined') return true
     const stored = localStorage.getItem('deck-interleaved')
+    if (stored === null) return true
     return stored === 'true'
   })
   const [mapLoaded, setMapLoaded] = useState(false)
